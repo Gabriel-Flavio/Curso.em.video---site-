@@ -26,7 +26,6 @@ nav > a{
     margin-left: 20px;
     text-decoration: none;
     color: white;
-    font-weight: bold;
 }
 nav > a:hover{
     background-color: rgba(91, 168, 255, 0.318);
