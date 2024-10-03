@@ -1,7 +1,38 @@
 header {
     background-image: linear-gradient(to top, #1A5C38, #3DDA84 );
-    font-family: 'Bedas Neue';
+    width: 100%;
+    height: 220px;
+    color: white;
+    text-align: center;
+    box-shadow: 0px 0px  5px 5px rgba(0, 0, 0, 0.397);
 }
-body{
+header > h1{
+    font-family: "Bebas Neue";
+    font-weight: 400;
+    font-style: normal;
+    padding: 30px 10px 10px 10px;
+    letter-spacing: -1px;
+    text-shadow: 1px 1px 2px black;
+    font-size: 2.8em;
+}
+h1{
+    margin: 0;
+}
+nav{
+    text-align: left;
+    padding:20px 10px 10px 15px;
+}
+nav > a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+nav > a:hover{
+    background-color: rgba(91, 168, 255, 0.318);
+}
+header > p{
+    text-shadow: 1px 1px 2px black;
+    line-height: 1.5em;
+}
 
-}
